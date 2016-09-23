@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+
+
+<html>
+<head>
+    <title>Registro</title>
+
+
+  <!--  <script>
+        function vervalores() {
+            var sAux = "";
+            var frm = document.getElementById("registro");
+            for (i = 0; i < frm.elements.length; i++) {
+                sAux += "NOMBRE: " + frm.elements[i].name + " ";
+                sAux += "VALOR: " + frm.elements[i].value + "\n";
+            }
+            alert(sAux);
+        }
+    </script>
+
+    -->
+
+    <script type="text/javascript" src="JS/FormularioValido.js"></script>
+
+
+    <style type="text/css">
+        #submit {
+        }
+    </style>
+
+</head>
+<body>
+
+
+<h1>Registro de usuario</h1>
+<br>
+
+
+<form id='registro' name='registro' onsubmit="return verificar()"  >
+
+
+
+    <label>Nombre y apellidos*</label>
+    <br>
+
+    <input type="text"  id="nombre" name="nombre" />
+    <br>
+
+    <label>Email*             </label>
+    <br>
+
+    <input type="text" id="email" name="email"  />
+    <br>
+
+    <label>Password*         </label>    <br>
+
+    <input type="password" id="password" name="password"  />
+    <br>
+
+    <label>Numero de telefono*</label>
+    <br>
+
+    <input type="text" id="numero" name="numero"  />
+    <br>
+
+    <label>Especialidad     </label>    <br>
+
+    <input type="text" id="especialidad" name="especialidad"  />
+    <br>
+    <br>
+
+
+    <button type="submit" name="submit" id="submit" >Submit</button>
+
+
+
+</form>
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>
